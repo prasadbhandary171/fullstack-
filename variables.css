@@ -1,0 +1,33 @@
+/* =========================================================
+   VARIABLES
+   Design tokens for the Maya Chen portfolio — a technical
+   draftsman's field notebook theme. Load this file first.
+   ========================================================= */
+
+:root {
+  /* ---- color ---- */
+  --ink:        #0E1B2B;
+  --ink-2:      #14263B;
+  --line:       #2A4560;
+  --line-soft:  rgba(111, 217, 224, 0.14);
+  --cyan:       #6FD9E0;
+  --cyan-dim:   #4AA6AD;
+  --amber:      #E2954B;
+  --red:        #E27272;
+  --paper:      #EFE7D2;
+  --paper-2:    #E4DAC0;
+  --ink-on-paper: #221F19;
+  --text:       #D9E4EE;
+  --text-dim:   #8FA3B8;
+
+  /* ---- type ---- */
+  --font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --font-body:    'Source Serif 4', Georgia, serif;
+  --font-mono:    'IBM Plex Mono', 'Courier New', monospace;
+
+  /* ---- layout ---- */
+  --max-width: 1180px;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
+  --radius: 4px;
+  --transition: 200ms ease;
+}
